@@ -14,7 +14,7 @@ def send_cmds(conn):
 		conn.send('{}'.format(cmd).encode())
 
 host, port = ('', 8888)
-with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as sock:
+with socket.socket() as sock:
 	sock.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
 	sock.bind((host, port))
 	sock.listen(5)
