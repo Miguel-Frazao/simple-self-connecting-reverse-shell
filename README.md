@@ -1,7 +1,7 @@
 # Simple self connecting reverse shell
 This is an example of a self connecting backdoor which provides a shell for the attacker
 
-This code is prepared for a Unix based OS. And the server.py is meant to be executed with python3.x
+This code is prepared for almost every Unix based OS. The server.py is meant to be executed with python3.x
 
 Usage:
 1. Just start the client.py program to see it trying to connect with the hacker.
