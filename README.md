@@ -6,3 +6,5 @@ This code is prepared for a Linux based demonstration.
 Usage:
 1. Just start the client.py program to see it trying to connect with the hacker.
 2. Start the server in another terminal and gain control of client machine
+
+Of course, in the real world scripts like this will never print anything...
