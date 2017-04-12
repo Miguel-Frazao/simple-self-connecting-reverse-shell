@@ -5,13 +5,13 @@ def wait_resp(conn):
 		resp = conn.recv(2048)
 		if not resp:
 			sys.exit()
-		sys.stdout.write('\n{}'.format(resp.decode('utf-8')))
+		sys.stdout.write('\n{}'.format(resp.decode()))
 		sys.stdout.flush()
 
 def send_cmds(conn):
 	while True:
 		cmd = sys.stdin.readline()
-		conn.send('{}'.format(cmd).encode('utf-8'))
+		conn.send('{}'.format(cmd).encode())
 
 host, port = ('', 8888)
 with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as sock:
