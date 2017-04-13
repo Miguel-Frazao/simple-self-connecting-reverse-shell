@@ -8,3 +8,5 @@ Usage:
 2. Start the server in another terminal and gain control of client machine
 
 Of course, in the real world scripts like this will never print anything...
+
+Video demonstration: https://www.youtube.com/watch?v=7Jbx8K104V0
