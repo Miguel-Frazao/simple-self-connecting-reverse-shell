@@ -7,6 +7,6 @@ Usage:
 1. Just start the client.py program to see it trying to connect with the 'attacker'.
 2. Start the server in another terminal and gain control of client machine
 
-Of course, in the real world scripts like this will never print anything...
+Of course, in the real world scripts like this will never print anything in the client side...
 
 Video demonstration: https://www.youtube.com/watch?v=7Jbx8K104V0
